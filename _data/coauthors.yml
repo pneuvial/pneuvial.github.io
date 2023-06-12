@@ -1,34 +1,60 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Ambroise":
+  - firstname: ["Christophe"]
+    url: http://www.math-evry.cnrs.fr/members/cambroise/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Bengtsson":
+  - firstname: ["Henrik"]
+    url: http://www.epibiostat.ucsf.edu/epidem/personnel/hbengtsson.html
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Bernado":
+  - firstname: ["Pau"]
+    url: https://scholar.google.com/citations?user=U6qRUe0AAAAJ&hl=en
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Blain":
+  - firstname: ["Alexandre"]
+    url: https://alexblnn.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Blanchard":
+  - firstname: ["Gilles"]
+    url: http://www.math.uni-potsdam.de/~blanchard/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Chambaz":
+  - firstname: ["Antoine"]
+    url: http://www.math-info.univ-paris5.fr/~chambaz/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Chiquet":
+  - firstname: ["Julien"]
+    url: http://julien.cremeriefamily.info/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Cortés":
+  - firstname: ["Juan"]
+    url: https://scholar.google.fr/citations?user=Hm0UA64AAAAJ&hl=fr
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Davenport":
+  - firstname: ["Samuel"]
+    url: https://sjdavenport.github.io/
+
+"Durand":
+  - firstname: ["Guillermo"]
+    url: https://durandg12.github.io/
+    
+"González-Delgado":
+  - firstname: ["Javier"]
+    url: https://www.math.univ-toulouse.fr/~jgonzale
+
+"Jacob":
+  - firstname: ["Laurent"]
+    url: http://lbbe.univ-lyon1.fr/-Jacob-Laurent-.html
+
+"Perrot-Dockès":
+  - firstname: ["Marie"]
+    url: https://marie-perrotdockes.github.io/
+
+"Roquain":
+  - firstname: ["Etienne"]
+    url: http://etienne.roquain.free.fr
+
+"Thirion":
+  - firstname: ["Bertrand"]
+    url: https://pages.saclay.inria.fr/bertrand.thirion/
+
