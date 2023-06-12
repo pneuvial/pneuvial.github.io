@@ -30,7 +30,13 @@ social: true
 
 <i class="fa fa-chevron-right" aria-hidden="true"></i> [ANR project SansSouci](sanssouci)
 
-{% include research-interests.html %}
+* Post hoc/post selection inference
+* Multiple testing: theory and applications
+* Statistical methods for genomic data analysis
+* Performance evaluation of statistical methods
+* Applications to cancer research
+* Reproducible research
+
 
 * Some recent projects:
   - [CNRS 80 PRIME project DDisc](ddisc)
