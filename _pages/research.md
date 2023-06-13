@@ -11,7 +11,7 @@ fa-icon: coffee
 
 * PI of the **[CNRS 80' project DDisc](ddisc)** (2021-2024): *Double-dipping in single-cell RNA sequencing data analysis*
 * PI of the **[ANR project SansSouci](SansSouci)** (2016-2020): *Post-hoc approaches to large-scale multiple testing*
-* PI of the **[CNRS MITI project SCALES](http://www.cnrs.fr/mi/spip.php?article1047)** (2017-2019): *Multi-scale and data-driven statistical inference for genomic data*
+* PI of the **[CNRS MITI](http://miti.cnrs.fr/) project SCALES** (2017-2019): *Multi-scale and data-driven statistical inference for genomic data*
 
 ### post-doctoral fellows
 
