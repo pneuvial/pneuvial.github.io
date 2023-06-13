@@ -1,6 +1,90 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+AoS:
+  url: http://imstat.org/aos/
 
-"PhysRev":
-  url: https://journals.aps.org/
+AoAS:
+  url: http://imstat.org/aoas/
+
+AMB:
+  url: https://almob.biomedcentral.com/
+
+Bioinfo:
+  url: https://academic.oup.com/bioinformatics
+
+BICOB:
+  url: https://sceweb.uhcl.edu/bicob20/
+
+BiB:
+  url: https://academic.oup.com/bib
+
+Bio-k:
+  url: https://academic.oup.com/biomet
+
+BMC-BI:
+  url: https://bmcbioinformatics.biomedcentral.com/
+
+BMC-SB:
+  url: https://bmcsystbiol.biomedcentral.com/
+
+C-Cell:
+  url: http://www.cell.com/cancer-cell/
+
+EJS:
+  url: http://www.imstat.org/ejs/
+
+JBCB:
+  url: https://www.worldscientific.com/worldscinet/jbcb
+
+JC:
+  url: https://www.springer.com/journal/357
+
+JMB:
+  url: https://www.sciencedirect.com/journal/journal-of-molecular-biology
+
+JMLR:
+  url: http://www.jmlr.org/
+
+JNCI:
+  url: https://academic.oup.com/jnci
+
+JSB:
+  url: https://www.sciencedirect.com/journal/journal-of-structural-biology
+  
+MITI:
+  url: https://miti.cnrs.fr/
+
+Nat:
+  url: http://www.nature.com/nature
+
+NAR:
+  url: https://academic.oup.com/nar
+
+NARGAB:
+  url: https://academic.oup.com/nargab
+
+Neuroimage:
+  url: https://www.sciencedirect.com/journal/neuroimage
+  
+PLoS-One:
+  url: http://journals.plos.org/plosone/
+
+PNAS:
+  url: http://www.pnas.org
+
+SciRep:
+  url: https://www.nature.com/srep/about
+
+SJS:
+  url: https://onlinelibrary.wiley.com/journal/14679469
+
+SMF:
+  url: http://smf4.emath.fr/Publications/Gazette/
+
+Var:
+  url: http://variances.eu/
+
+HDR:
+
+PhD:
+
+M.Sc.:
+

@@ -1,15 +1,15 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
-nav_order: 2
-display_categories: [work, fun]
+permalink: /software/
+title: software
+display_categories: software
+description: R packages available from CRAN, Bioconductor, github and/or aroma.
+nav: true
+nav_order: 4
+fa-icon: code
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -56,3 +56,4 @@ horizontal: false
   {%- endif -%}
 {%- endif -%}
 </div>
+
