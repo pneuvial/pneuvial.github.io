@@ -3,13 +3,13 @@ layout: about
 title: about
 permalink: /
 title: about
-subtitle: <a href="https://www.cnrs.fr">CNRS</a> researcher (DR) in Statistics, <a href="https://www.math.univ-toulouse.fr">Institut de Mathématiques de Toulouse</a> (IMT)
+subtitle: <a href="https://www.cnrs.fr">CNRS</a> researcher (DR) in Statistics, <a href="https://www.math.univ-toulouse.fr">Institut de Mathématiques de Toulouse</a>
 
 profile:
   align: right
   image: pierre-neuvial.jpg
   address: >
-    <p> Bureau 208, bât. 1R1</p>
+    <p>Bureau 208, <a href="https://www.openstreetmap.org/#map=19/43.56136/1.46610">bât. 1R1</a></p>
     <p>118 route de Narbonne</p>
     <p>31062 Toulouse cedex 9</p>
     <p>France</p>
@@ -17,36 +17,34 @@ profile:
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 news: false
-social: true
+social: false
 ---
 
 * Team: [Statistics and Optimization](https://www.math.univ-toulouse.fr/spip.php?article1028)
-* Member of the [Mathematics, Biology & Health](https://www.math.univ-toulouse.fr/MathBio/) group at IMT
-* Member of the [Apprentissage, Optimisation, Complexité](https://perso.math.univ-toulouse.fr/aoc/) (AOC) project-team
+* Member of the [Mathematics, Biology & Health](https://www.math.univ-toulouse.fr/MathBio/) group
+* Member of the [Apprentissage, Optimisation, Complexité](https://perso.math.univ-toulouse.fr/aoc/) (AOC) team
 
-* <a href="{{ '/assets/pdf/cv-neuvial.pdf' | prepend: site.baseurl | prepend: site.url }}">CV (pdf)</a> as of 2022-09-26
 
 ## research interests
-
-<i class="fa fa-chevron-right" aria-hidden="true"></i> [ANR project SansSouci](sanssouci)
 
 * Post hoc/post selection inference
 * Multiple testing: theory and applications
 * Statistical methods for genomic data analysis
 * Performance evaluation of statistical methods
 * Applications to cancer research
-* Reproducible research
+* Reproducible research: check-out the [Computo](https://computo.sfds.asso.fr/) journal
 
-
-* Some recent projects:
+Some recent projects:
   - [CNRS 80 PRIME project DDisc](ddisc)
   - [ANR project SansSouci](sanssouci)
 
 ## bio
 
+<i class="fa fa-chevron-right" aria-hidden="true"></i> <a href="{{ '/assets/pdf/cv-neuvial.pdf' | prepend: site.baseurl | prepend: site.url }}">CV (pdf)</a> as of 2023-06-12
+
 * [since 2011] CNRS researcher with:
-* [Institut Mathématique de Toulouse](https://www.math.univ-toulouse.fr) since 2016
-   * [LaMME (Evry)](http://www.math-evry.cnrs.fr) (2011-2016)
+  * [Institut Mathématique de Toulouse](https://www.math.univ-toulouse.fr) since 2016
+  * [LaMME (Evry)](http://www.math-evry.cnrs.fr) (2011-2016)
 * [2008-2011] Postdoc with:
    * [LaMME (Evry)](http://www.math-evry.cnrs.fr) (2010-2011)
    * UC Berkeley, [Statistics](http://www.stat.berkeley.edu), under the supervision of [Terry Speed](http://www.wehi.edu.au/people/terry-speed)

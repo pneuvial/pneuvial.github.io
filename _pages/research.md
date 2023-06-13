@@ -17,14 +17,14 @@ fa-icon: coffee
 
 * Feb 2021 - Aug 2021: [Samuel Davenport](https://sjdavenport.github.io/), funded by ANR SansSouci
 * Oct 2019 - Aug 2020: [Marie Perrot-Dockès](https://marie-perrotdockes.github.io/), funded by ANR SansSouci
-* May 2018 - Aug 2018: [Magali Champion](http://helios.mi.parisdescartes.fr/~mchampio/), funded by ANR SansSouci 
+* May 2018 - Aug 2018: [Magali Champion](https://magalichampion.github.io/), funded by ANR SansSouci 
 
 
 ### PhD students
 
-- [**Alexandre Blain**](https://alexblnn.github.io/): (11/2021-): *Reliable statistical inference: controlling the false discovery proportion in high-dimensional multivariate estimators*. With [Bertrand Thirion](https://pages.saclay.inria.fr/bertrand.thirion/). Funded by UDOPIA (Paris Saclay).
-- **Nicolas Enjalbert-Courrech**: (10/2021-): *Post-clustering inference for single-cell RNA sequencing data*. With [Cathy Maugis-Rabusseau](https://perso.math.univ-toulouse.fr/maugis/). Funded by **[CNRS 80' project PoCI-sc](PoCI-sc)**.
-- [**Javier González Delgado**](https://www.math.univ-toulouse.fr/~jgonzale/): (10/2020-): *Statistical models and methods for the structural analysis of intrinsically disordered proteins*. With Juan Cortés ([LAAS](http://www.laas.fr)). Funded by [Labex CIMI](https://cimi.univ-toulouse.fr/).
+- **[Alexandre Blain](https://alexblnn.github.io/)**: (11/2021-): *Reliable statistical inference: controlling the false discovery proportion in high-dimensional multivariate estimators*. With [Bertrand Thirion](https://pages.saclay.inria.fr/bertrand.thirion/). Funded by UDOPIA (Paris Saclay).
+- **[Nicolas Enjalbert-Courrech](https://nicolas-enjalbert.github.io/)**: (10/2021-): *Post-clustering inference for single-cell RNA sequencing data*. With [Cathy Maugis-Rabusseau](https://perso.math.univ-toulouse.fr/maugis/). Funded by **[CNRS MITI 80' project DDisc](ddisc)**.
+- **[Javier González Delgado**](https://www.math.univ-toulouse.fr/~jgonzale/): (10/2020-): *Statistical models and methods for the structural analysis of intrinsically disordered proteins*. With Juan Cortés ([LAAS](http://www.laas.fr)). Funded by [Labex CIMI](https://cimi.univ-toulouse.fr/).
 - **Nathanaël Randriamihamison** (10/2018-10/2021): [*Adjacency-constrained hierarchical agglomerative clustering with application to Hi-C studies*](https://hal.archives-ouvertes.fr/tel-03424118v1). With [Nathalie Vialaneix](http://www.nathalievialaneix.eu/) and [Marie Chavent](http://www.math.u-bordeaux.fr/~mchave100p/). Funded by INRA/Inria.
 - **[Guillermo Durand](https://durandg12.github.io/)** (10/2015-11/2018): [*Multiple testing and post hoc bounds for heterogeneous data*](https://hal.archives-ouvertes.fr/tel-02374758v1). Co-supervised with [Etienne Roquain](http://etienne.roquain.free.fr). Funded by Université Paris 6.
 - **Benjamin Sadacca** (11/2013-12/2017): [*Pharmacogenomic and high-throughput data analysis to overcome triple negative breast cancers drug resistance*](https://tel.archives-ouvertes.fr/tel-01956586). Co-supervised with Fabien Reyal. Funded by Institut Curie.
@@ -33,10 +33,10 @@ fa-icon: coffee
 
 ### upcoming and recent conferences
 
-
-* [MCP 2021](https://www.mcp-conference.org/online-sessions/) (session "Model Selection and Post-hoc Bounds")
-* JOBIM 2021 (session "Post-selection inference: valid double-dipping in bioinformatics")
-* Statistical Methods for Post Genomic Data (SMPGD) 2021 (online)
+* Session "Post hoc FDP control" at [Multiple Comparison Procedures 2021](https://www.mcp-conference.org/)
+* [Mathematical Methods of Modern Statistics 3](https://conferences.cirm-math.fr/2554.htm)
+* Online session ["Post-selection inference: valid double-dipping in bioinformatics"](https://jobim2021.sciencesconf.org/resource/page/id/25) at [JOBIM 2021](https://jobim2021.sciencesconf.org/) 
+* [Statistical Methods for Post Genomic Data (SMPGD) 2021](https://smpgd2021.sciencesconf.org/) (online)
 * Session "Post-selection inference and multiple testing" at [MCP 2019](https://mcp2019.com.tw/) (Taipei, December 2019)
 * [Chromosome conformation symposium](http://www.nathalievialaneix.eu/hic_days/) at INSA de Toulouse, Dec 4-5, 2019.
 * Organization committee and Scientific committee of [useR!2019](http://user2019.r-project.org) (Toulouse, July 2019)

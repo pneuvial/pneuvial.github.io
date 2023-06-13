@@ -17,7 +17,7 @@ fa-icon: bullhorn
 * *Post hoc confidence bounds on false positives using reference families*:
   * 2021-09-07, talk at MCP 2021 ([online](https://www.mcp-conference.org/online-sessions/))
 
-* Invited discussion at [International Seminar on Selective Inference](https://sites.google.com/view/selective-inference-seminar/home) on the talk "Permutation-based true discovery guarantee by sum tests", by Anna Vesely. 2021-05-25. [slides](assets/pdf/Neuvial_2021-02-25_ISSI-discussion.pdf)
+* Invited discussion at [International Seminar on Selective Inference](https://sites.google.com/view/selective-inference-seminar/home) on the talk "Permutation-based true discovery guarantee by sum tests", by Anna Vesely. 2021-05-25. [[slides](assets/pdf/slides/Neuvial_2021-02-25_ISSI-discussion.pdf)]
 
 * *Multiple testing for biomedical studies*. 2019-11-22, Data science seminar (3h), Sanofi R&D, Chilly-Mazarin
 
