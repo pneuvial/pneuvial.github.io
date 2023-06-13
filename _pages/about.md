@@ -54,5 +54,4 @@ Some recent projects:
 * [2003-2005] Research engineer at [Institut Curie, Bioinformatics](http://u900.curie.fr/)
 * [2002-2003]  [M. S. in Stochastic models](https://masterfinance.math.univ-paris-diderot.fr), Université Paris Diderot (Paris 7)
 * [1999-2003]  [ENSAE ParisTech](http://ensae.fr)
-* <a href="{{ '/assets/pdf/cv-neuvial.pdf' | prepend: site.baseurl | prepend: site.url }}">CV (pdf)</a>
 
