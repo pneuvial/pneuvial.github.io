@@ -1,0 +1,1511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SansSouci | Pierre  Neuvial</title>
+    <meta name="author" content="Pierre  Neuvial">
+    <meta name="description" content="Post hoc inference via multiple testing. Project ANR-16-CE40-0019 (2016-2021).">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Bootstrap Table -->
+    <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/pi-R.ico%EF%B8%8F">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://pneuvial.github.io/sanssouci.html">
+
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Pierre </span>Neuvial</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">about</a>
+              </li>
+              
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/research.html"><i class="fa fa-coffee" aria-hidden="true"> </i>research</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/"><i class="fa fa-book" aria-hidden="true"> </i>publications</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/software/"><i class="fa fa-code" aria-hidden="true"> </i>software</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/talks.html"><i class="fa fa-bullhorn" aria-hidden="true"> </i>talks</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      
+        <!-- page.html -->
+        <div class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">SansSouci</h1>
+            <p class="post-description">Post hoc inference via multiple testing. Project ANR-16-CE40-0019 (2016-2021).</p>
+          </header>
+
+          <article>
+            <p><img src="/assets/img/SansSouci-sketch.png" style="width:100%"></p>
+
+<h3 id="rationale-of-the-project">Rationale of the project</h3>
+
+<p>The number and size of available data sets of different types has increased dramatically over the past twenty years. This “data deluge” has been accompanied by a shift from hypothesis-driven research to data-driven research in many scientific fields including astronomy, biology, genetics, or medicine. Analyzing and interpreting such data require innovative approaches for the simultaneous testing of a large number of biological hypotheses.</p>
+
+<p>This project gathers specialists of multiple testing theory, high-dimensional data analysis, and genomics. It aims at filling a gap between the statistical guarantees provided by state-of-the-art multiple testing procedures and the actual needs of practitioners.</p>
+
+<p>We propose to develop “post hoc” procedures (in the sense of Goeman and Solari, <em>Statistical Science</em>, 2011), which provide confidence statements on the number or proportion of false positives among any subset of hypotheses chosen by the user after analyzing the data. Both theoretical and applied aspects of post hoc multiple testing will be covered.</p>
+
+<h3 id="main-events">Main events</h3>
+
+<ul>
+  <li>
+    <p>Mar 3-4, 2022: Workshop “Post-selection inference for genomic and neuroimaging data”, Toulouse. With A. Blain, G. Blanchard, S. Davenport, G. Durand, N. Enjalbert-Courrech, J. Gonzales-Delgado, A. Marandon, C. Maugis-Rabusseau, I. Meah, P. Neuvial, L. Risser, E. Roquain, M. Perrot-Dockès, B. Thirion.</p>
+  </li>
+  <li>
+    <p>Jun 15-19, 2020: Participation to the scientific committee of the <em><a href="https://conferences.cirm-math.fr/2146.html" rel="external nofollow noopener" target="_blank">Mathematical Methods of Modern Statistics 2</a></em> conference at CIRM (Luminy, France). This conference has been virtualized.</p>
+  </li>
+  <li>
+    <p>Mar 10-12, 2020: ANR meeting, Paris. With G. Blanchard, M. Perrot-Dockès, P. Neuvial, E. Roquain.</p>
+  </li>
+  <li>
+    <p>Dec 12-15, 2019: Participation of M. Perrot-Dockès, P. Neuvial, E. Roquain and F. Villers at <a href="https://mcp2019.com.tw/" rel="external nofollow noopener" target="_blank">MCP 2019</a> in Taiwan. Organization of a session on post-selection inference and multiple testing.</p>
+  </li>
+  <li>
+    <p>Apr 8, 2019: ANR meeting, Paris. With G. Blanchard, G. Durand, M. Perrot-Dockès, P. Neuvial, G. Rigaill, E. Roquain, B. Sadacca.</p>
+  </li>
+  <li>
+    <p>Feb 7-9, 2018: Workshop “Post-selection inference and multiple testing” in Toulouse. This event is part of a thematic semester <a href="http://www.cimi.univ-toulouse.fr/mib/en/node/619" rel="external nofollow noopener" target="_blank">Mathematics and Computer Science for biology</a> organized by <a href="http://www.cimi.univ-toulouse.fr" rel="external nofollow noopener" target="_blank">CIMI</a>, the International Centre for Mathematics and Computer Science in Toulouse.</p>
+  </li>
+  <li>
+    <p>January 6, 2017: Kick-off meeting, Evry.</p>
+  </li>
+</ul>
+
+<h3 id="preprints">Preprints</h3>
+
+<ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="blain2022notip" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Notip: Non-parametric True Discovery Proportion estimation for brain imaging</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <a href="https://alexblnn.github.io/" rel="external nofollow noopener" target="_blank">Alexandre Blain</a>, <a href="https://pages.saclay.inria.fr/bertrand.thirion/" rel="external nofollow noopener" target="_blank">Bertrand Thirion</a>, and Pierre Neuvial</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          Apr 2022
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            [<a href="http://arxiv.org/abs/2204.10572" rel="external nofollow noopener" target="_blank">arXiv</a>]
+          
+	  [<a href="https://hal.archives-ouvertes.fr/hal-03649114" target="_blank" rel="external nofollow noopener">hal</a>]
+	  
+            [<a href="https://hal.archives-ouvertes.fr/hal-03649114/file/Notip.pdf" rel="external nofollow noopener" target="_blank">pdf</a>]
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">blain2022notip</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Notip: Non-parametric True Discovery Proportion estimation for brain imaging}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Blain, Alexandre and Thirion, Bertrand and Neuvial, Pierre}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://hal.archives-ouvertes.fr/hal-03649114}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">apr</span><span class="p">,</span>
+  <span class="na">hal_id</span> <span class="p">=</span> <span class="s">{hal-03649114}</span><span class="p">,</span>
+  <span class="na">hal_version</span> <span class="p">=</span> <span class="s">{v1}</span><span class="p">,</span>
+  <span class="na">category</span> <span class="p">=</span> <span class="s">{submitted}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="enjalbert-courrech2022powerful" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Powerful and interpretable control of false discoveries in differential expression studies</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Nicolas Enjalbert-Courrech, and Pierre Neuvial</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          Mar 2022
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+          
+	  [<a href="https://hal.archives-ouvertes.fr/hal-03601095" target="_blank" rel="external nofollow noopener">hal</a>]
+	  
+            [<a href="https://hal.archives-ouvertes.fr/hal-03601095/file/Powerful_and_interpretable_control_of_false_discoveries_in_differential_expression_studies.pdf" rel="external nofollow noopener" target="_blank">pdf</a>]
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">enjalbert-courrech2022powerful</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Powerful and interpretable control of false discoveries in differential expression studies}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Enjalbert-Courrech, Nicolas and Neuvial, Pierre}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://hal.archives-ouvertes.fr/hal-03601095}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">mar</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1101/2022.03.08.483449}</span><span class="p">,</span>
+  <span class="na">hal_id</span> <span class="p">=</span> <span class="s">{hal-03601095}</span><span class="p">,</span>
+  <span class="na">hal_version</span> <span class="p">=</span> <span class="s">{v1}</span><span class="p">,</span>
+  <span class="na">category</span> <span class="p">=</span> <span class="s">{submitted}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="marandon2022false" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">False clustering rate control in mixture models</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Ariane Marandon, Tabea Rebafka, <a href="http://etienne.roquain.free.fr" rel="external nofollow noopener" target="_blank">Etienne Roquain</a>, and Nataliya Sokolovska</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          Mar 2022
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            [<a href="http://arxiv.org/abs/2203.02597" rel="external nofollow noopener" target="_blank">arXiv</a>]
+          
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">marandon2022false</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{False clustering rate control in mixture models}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Marandon, Ariane and Rebafka, Tabea and Roquain, Etienne and Sokolovska, Nataliya}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">category</span> <span class="p">=</span> <span class="s">{submitted}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="doehler2021online" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Online multiple testing with super-uniformity reward</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Sebastian Döhler, Iqraa Meah, and <a href="http://etienne.roquain.free.fr" rel="external nofollow noopener" target="_blank">Etienne Roquain</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          Mar 2021
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            [<a href="http://arxiv.org/abs/2110.01255" rel="external nofollow noopener" target="_blank">arXiv</a>]
+          
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">doehler2021online</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Online multiple testing with super-uniformity reward}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{D{\"o}hler, Sebastian and Meah, Iqraa and Roquain, Etienne}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">category</span> <span class="p">=</span> <span class="s">{submitted}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="abraham2021sharp" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Sharp multiple testing boundary for sparse sequences</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Kweku Abraham, Ismael Castillo, and <a href="http://etienne.roquain.free.fr" rel="external nofollow noopener" target="_blank">Etienne Roquain</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          Mar 2021
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            [<a href="http://arxiv.org/abs/2109.13601" rel="external nofollow noopener" target="_blank">arXiv</a>]
+          
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">abraham2021sharp</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Sharp multiple testing boundary for sparse sequences}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Abraham, Kweku and Castillo, Ismael and Roquain, Etienne}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">category</span> <span class="p">=</span> <span class="s">{submitted}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="PBNR" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Selective inference for the false discovery proportion in a Hidden Markov Model.</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <a href="https://marie-perrotdockes.github.io/" rel="external nofollow noopener" target="_blank">Marie Perrot-Dockès</a>, <a href="http://www.math.uni-potsdam.de/~blanchard/" rel="external nofollow noopener" target="_blank">Gilles Blanchard</a>, Pierre Neuvial, and <a href="http://etienne.roquain.free.fr" rel="external nofollow noopener" target="_blank">Etienne Roquain</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          Mar 2021
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            [<a href="http://arxiv.org/abs/2105.00288" rel="external nofollow noopener" target="_blank">arXiv</a>]
+          
+	  [<a href="https://hal.archives-ouvertes.fr/hal-03214472" target="_blank" rel="external nofollow noopener">hal</a>]
+	  
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">PBNR</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Selective inference for the false discovery proportion in a Hidden Markov Model.}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Perrot-Dockès, Marie and Blanchard, Gilles and Neuvial, Pierre and Roquain, Etienne}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">hal_id</span> <span class="p">=</span> <span class="s">{hal-03214472}</span><span class="p">,</span>
+  <span class="na">category</span> <span class="p">=</span> <span class="s">{submitted}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="durand2019discretefdr" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">DiscreteFDR: An R package for controlling the false discovery rate for discrete test statistics</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <a href="https://durandg12.github.io/" rel="external nofollow noopener" target="_blank">Guillermo Durand</a>, Florian Junge, Sebastian Döhler, and <a href="http://etienne.roquain.free.fr" rel="external nofollow noopener" target="_blank">Etienne Roquain</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          Mar 2019
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            [<a href="http://arxiv.org/abs/1904.02054" rel="external nofollow noopener" target="_blank">arXiv</a>]
+          
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">durand2019discretefdr</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{DiscreteFDR: An R package for controlling the false discovery rate for discrete test statistics}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Durand, Guillermo and Junge, Florian and D{\"o}hler, Sebastian and Roquain, Etienne}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
+  <span class="na">category</span> <span class="p">=</span> <span class="s">{submitted}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+
+<h3 id="papers">Papers</h3>
+
+<ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="mary2021semi-supervised" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Semi-supervised multiple testing</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        David Mary, and <a href="http://etienne.roquain.free.fr" rel="external nofollow noopener" target="_blank">Etienne Roquain</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>arXiv preprint arXiv:2106.13501</em>, 2021
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+          
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">mary2021semi-supervised</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Semi-supervised multiple testing}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Mary, David and Roquain, Etienne}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint arXiv:2106.13501}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="http://www.imstat.org/ejs/" rel="external nofollow noopener" target="_blank">EJS</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="rebafka2019graph" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Graph inference with clustering and false discovery rate control</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Tabea Rebafka, <a href="http://etienne.roquain.free.fr" rel="external nofollow noopener" target="_blank">Etienne Roquain</a>, and Fanny Villers</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Electronic Journal of Statistics</em>, 2022
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            [<a href="http://arxiv.org/abs/1907.10176" rel="external nofollow noopener" target="_blank">arXiv</a>]
+          
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">rebafka2019graph</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Graph inference with clustering and false discovery rate control}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Rebafka, Tabea and Roquain, Etienne and Villers, Fanny}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Electronic Journal of Statistics}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">category</span> <span class="p">=</span> <span class="s">{to appear}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="http://www.imstat.org/ejs/" rel="external nofollow noopener" target="_blank">EJS</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="abraham2021empirical" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Empirical Bayes cumulative l-value multiple testing procedure for sparse sequences</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Kweku Abraham, Ismael Castillo, and <a href="http://etienne.roquain.free.fr" rel="external nofollow noopener" target="_blank">Etienne Roquain</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Electronic Journal of Statistics</em>, 2022
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            [<a href="http://arxiv.org/abs/2102.00929" rel="external nofollow noopener" target="_blank">arXiv</a>]
+          
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">abraham2021empirical</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Empirical Bayes cumulative $l$-value multiple testing procedure for sparse sequences}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Abraham, Kweku and Castillo, Ismael and Roquain, Etienne}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Electronic Journal of Statistics}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">category</span> <span class="p">=</span> <span class="s">{to appear}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="http://imstat.org/aos/" rel="external nofollow noopener" target="_blank">AoS</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="roquain2019false" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">False discovery rate control with unknown null distribution: is it possible to mimic the oracle?</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <a href="http://etienne.roquain.free.fr" rel="external nofollow noopener" target="_blank">Etienne Roquain</a>, and Nicolas Verzelen</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Annals of Statistics</em>, to appear
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            [<a href="http://arxiv.org/abs/1912.03109" rel="external nofollow noopener" target="_blank">arXiv</a>]
+          
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">roquain2019false</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{False discovery rate control with unknown null distribution: is it possible to mimic the oracle?}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Roquain, Etienne and Verzelen, Nicolas}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Annals of Statistics}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{to appear}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="mary-huard2021error" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Error rate control for classification rules in multiclass mixture models</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Tristan Mary-Huard, Vittorio Perduca, Marie Laure Martin-Magniette, and <a href="http://www.math.uni-potsdam.de/~blanchard/" rel="external nofollow noopener" target="_blank">Gilles Blanchard</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>International Journal of Biostatistics</em>, 2021
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+          
+	  [<a href="https://hal.archives-ouvertes.fr/hal-03357461" target="_blank" rel="external nofollow noopener">hal</a>]
+	  
+            [<a href="https://hal-universite-paris-saclay.archives-ouvertes.fr/hal-03357461/file/IJB_MaryHuard.pdf" rel="external nofollow noopener" target="_blank">pdf</a>]
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">mary-huard2021error</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Error rate control for classification rules in multiclass mixture models}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Mary-Huard, Tristan and Perduca, Vittorio and Martin-Magniette, Marie Laure and Blanchard, Gilles}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://hal-universite-paris-saclay.archives-ouvertes.fr/hal-03357461}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{{International Journal of Biostatistics}}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{{De Gruyter}}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1515/ijb-2020-0105}</span><span class="p">,</span>
+  <span class="na">hal_id</span> <span class="p">=</span> <span class="s">{hal-03357461}</span><span class="p">,</span>
+  <span class="na">hal_version</span> <span class="p">=</span> <span class="s">{v1}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="http://www.imstat.org/ejs/" rel="external nofollow noopener" target="_blank">EJS</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="doehler2020controlling" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Controlling the false discovery exceedance for heterogeneous tests</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Sebastian Döhler, and <a href="http://etienne.roquain.free.fr" rel="external nofollow noopener" target="_blank">Etienne Roquain</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Electronic Journal of Statistics</em>, 2020
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            [<a href="http://arxiv.org/abs/1912.04607" rel="external nofollow noopener" target="_blank">arXiv</a>]
+          
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">doehler2020controlling</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Controlling the false discovery exceedance for heterogeneous tests}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{D{\"o}hler, Sebastian and Roquain, Etienne}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Electronic Journal of Statistics}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{14}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{2}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{4244--4272}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Institute of Mathematical Statistics and Bernoulli Society}</span><span class="p">,</span>
+  <span class="na">category</span> <span class="p">=</span> <span class="s">{published}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="http://imstat.org/aos/" rel="external nofollow noopener" target="_blank">AoS</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="carpentier2018estimating" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Estimating minimum effect with outlier selection</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Alexandra Carpentier, Sylvain Delattre, <a href="http://etienne.roquain.free.fr" rel="external nofollow noopener" target="_blank">Etienne Roquain</a>, and Nicolas Verzelen</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>The Annals of Statistics</em>, 2021
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+          
+	  [<a href="https://hal.archives-ouvertes.fr/hal-03173293v1" target="_blank" rel="external nofollow noopener">hal</a>]
+	  
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">carpentier2018estimating</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Estimating minimum effect with outlier selection}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Carpentier, Alexandra and Delattre, Sylvain and Roquain, Etienne and Verzelen, Nicolas}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{The Annals of Statistics}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{49}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{1}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{272--294}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Institute of Mathematical Statistics}</span><span class="p">,</span>
+  <span class="na">hal_id</span> <span class="p">=</span> <span class="s">{hal-03173293v1}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="http://imstat.org/aos/" rel="external nofollow noopener" target="_blank">AoS</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="castillo2020spike" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">On spike and slab empirical Bayes multiple testing</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Ismael Castillo, and <a href="http://etienne.roquain.free.fr" rel="external nofollow noopener" target="_blank">Etienne Roquain</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Annals of Statistics</em>, 2020
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            [<a href="http://arxiv.org/abs/arXiv:1808.09748" rel="external nofollow noopener" target="_blank">arXiv</a>]
+          
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">castillo2020spike</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{On spike and slab empirical Bayes multiple testing}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Castillo, Ismael and Roquain, Etienne}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Annals of Statistics}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://projecteuclid.org/euclid.aos/1600480923}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="http://www.imstat.org/ejs/" rel="external nofollow noopener" target="_blank">EJS</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="durand2019adaptive" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Adaptive p-value weighting with power optimality</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <a href="https://durandg12.github.io/" rel="external nofollow noopener" target="_blank">Guillermo Durand</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Electronic Journal of Statistics</em>, 2019
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            [<a href="http://arxiv.org/abs/1710.01094" rel="external nofollow noopener" target="_blank">arXiv</a>]
+          
+	  [<a href="https://hal.archives-ouvertes.fr/hal-01596474" target="_blank" rel="external nofollow noopener">hal</a>]
+	  
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">durand2019adaptive</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Adaptive p-value weighting with power optimality}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Durand, Guillermo}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Electronic Journal of Statistics}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{13}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{2}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{3336--3385}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{multiple testing ; FDR ; optimality ; weighting ; grouped hypotheses ; adaptivity}</span><span class="p">,</span>
+  <span class="na">hal_id</span> <span class="p">=</span> <span class="s">{hal-01596474}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="https://onlinelibrary.wiley.com/journal/14679469" rel="external nofollow noopener" target="_blank">SJS</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="durand20post-hoc" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Post hoc false positive control for structured hypotheses</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <a href="https://durandg12.github.io/" rel="external nofollow noopener" target="_blank">Guillermo Durand</a>, <a href="http://www.math.uni-potsdam.de/~blanchard/" rel="external nofollow noopener" target="_blank">Gilles Blanchard</a>, Pierre Neuvial, and <a href="http://etienne.roquain.free.fr" rel="external nofollow noopener" target="_blank">Etienne Roquain</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Scandinavian Journal of Statistics</em>, 2020
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            [<a href="http://arxiv.org/abs/1807.01470" rel="external nofollow noopener" target="_blank">arXiv</a>]
+          
+	  [<a href="https://hal.archives-ouvertes.fr/hal-01829037" target="_blank" rel="external nofollow noopener">hal</a>]
+	  
+            [<a href="https://hal.archives-ouvertes.fr/hal-01829037/file/DurandBNR2018.pdf" rel="external nofollow noopener" target="_blank">pdf</a>]
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">durand20post-hoc</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Post hoc false positive control for structured hypotheses}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Durand, Guillermo and Blanchard, Gilles and Neuvial, Pierre and Roquain, Etienne}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://dx.doi.org/10.1111/sjos.12453}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{ multiple testing ;  Simes inequality ; post hoc inference ;  selective inference ;  Forest structure ;  DKW inequality}</span><span class="p">,</span>
+  <span class="na">hal_id</span> <span class="p">=</span> <span class="s">{hal-01829037}</span><span class="p">,</span>
+  <span class="na">hal_version</span> <span class="p">=</span> <span class="s">{v1}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Scandinavian Journal of Statistics}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="http://imstat.org/aos/" rel="external nofollow noopener" target="_blank">AoS</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="blanchard20post-hoc" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Post Hoc Confidence Bounds on False Positives Using Reference Families</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <a href="http://www.math.uni-potsdam.de/~blanchard/" rel="external nofollow noopener" target="_blank">Gilles Blanchard</a>, Pierre Neuvial, and <a href="http://etienne.roquain.free.fr" rel="external nofollow noopener" target="_blank">Etienne Roquain</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Annals of Statistics</em>, 2020
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            [<a href="http://arxiv.org/abs/1703.02307" rel="external nofollow noopener" target="_blank">arXiv</a>]
+          
+	  [<a href="https://hal.archives-ouvertes.fr/hal-01483585" target="_blank" rel="external nofollow noopener">hal</a>]
+	  
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">blanchard20post-hoc</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Post Hoc Confidence Bounds on False Positives Using Reference Families}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Blanchard, Gilles and Neuvial, Pierre and Roquain, Etienne}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://projecteuclid.org/euclid.aos/1594972818}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Annals of Statistics}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{48}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{3}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1281--1303}</span><span class="p">,</span>
+  <span class="na">hal_id</span> <span class="p">=</span> <span class="s">{hal-01483585}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="http://www.imstat.org/ejs/" rel="external nofollow noopener" target="_blank">EJS</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="bachoc18posi" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">On the post selection inference constant under restricted isometry properties</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        François Bachoc, <a href="http://www.math.uni-potsdam.de/~blanchard/" rel="external nofollow noopener" target="_blank">Gilles Blanchard</a>, and Pierre Neuvial</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Electron. J. Statist.</em>, Nov 2018
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            [<a href="http://arxiv.org/abs/1804.07566" rel="external nofollow noopener" target="_blank">arXiv</a>]
+          
+	  [<a href="https://hal.archives-ouvertes.fr/hal-01772538" target="_blank" rel="external nofollow noopener">hal</a>]
+	  
+            [<a href="https://projecteuclid.org/download/pdfview_1/euclid.ejs/1542682881" rel="external nofollow noopener" target="_blank">pdf</a>]
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">bachoc18posi</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bachoc, Fran\c{c}ois and Blanchard, Gilles and Neuvial, Pierre}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{On the post selection inference constant under restricted isometry properties}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Electron. J. Statist.}</span><span class="p">,</span>
+  <span class="na">fjournal</span> <span class="p">=</span> <span class="s">{Electronic Journal of Statistics}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2018}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{12}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{2}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{3736-3757}</span><span class="p">,</span>
+  <span class="na">issn</span> <span class="p">=</span> <span class="s">{1935-7524}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1214/18-EJS1490}</span><span class="p">,</span>
+  <span class="na">sici</span> <span class="p">=</span> <span class="s">{1935-7524(2018)12:2&lt;3736:OTPSIC&gt;2.0.CO;2-0}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://hal.archives-ouvertes.fr/hal-01772538}</span><span class="p">,</span>
+  <span class="na">hal_id</span> <span class="p">=</span> <span class="s">{hal-01772538}</span><span class="p">,</span>
+  <span class="na">hal_version</span> <span class="p">=</span> <span class="s">{v2}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">nov</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="https://academic.oup.com/biomet" rel="external nofollow noopener" target="_blank">Bio-k</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="picard18continuous" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Continuous testing for Poisson process intensities: a new perspective on scanning statistics</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Franck Picard, Patricia Reynaud-Bouret, and <a href="http://etienne.roquain.free.fr" rel="external nofollow noopener" target="_blank">Etienne Roquain</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Biometrika</em>, Nov 2018
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            [<a href="http://arxiv.org/abs/1705.08800" rel="external nofollow noopener" target="_blank">arXiv</a>]
+          
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">picard18continuous</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Continuous testing for Poisson process intensities: a new perspective on scanning statistics}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Picard, Franck and Reynaud-Bouret, Patricia and Roquain, Etienne}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Biometrika}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{105}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{4}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{931--944}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2018}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Oxford University Press}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="http://www.imstat.org/ejs/" rel="external nofollow noopener" target="_blank">EJS</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="doehler2018" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">New FDR bounds for discrete and heterogeneous tests</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Sebastian Döhler, <a href="https://durandg12.github.io/" rel="external nofollow noopener" target="_blank">Guillermo Durand</a>, and <a href="http://etienne.roquain.free.fr" rel="external nofollow noopener" target="_blank">Etienne Roquain</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Electron. J. Statist.</em>, Nov 2018
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+          
+            [<a href="https://projecteuclid.org/euclid.ejs/1528855551" rel="external nofollow noopener" target="_blank">pdf</a>]
+	  <!-- hidden link to bibtex -->
+	  [<a class="bibtex">bib</a>]
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">doehler2018</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{D{\"o}hler, Sebastian and Durand, Guillermo and Roquain, Etienne}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1214/18-EJS1441}</span><span class="p">,</span>
+  <span class="na">fjournal</span> <span class="p">=</span> <span class="s">{Electronic Journal of Statistics}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Electron. J. Statist.}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{1}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1867--1900}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{The Institute of Mathematical Statistics and the Bernoulli Society}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{New {FDR} bounds for discrete and heterogeneous tests}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1214/18-EJS1441}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{12}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2018}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+
+<h3 id="participants">Participants</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Toulouse</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://www.math.univ-toulouse.fr/~fbachoc/" rel="external nofollow noopener" target="_blank">François Bachoc</a></td>
+      <td>
+<a href="http://www.univ-tlse3.fr/" rel="external nofollow noopener" target="_blank">Université Paul Sabatier</a>, <a href="http://www.math.univ-toulouse.fr" rel="external nofollow noopener" target="_blank">Institut de Mathématiques de Toulouse</a>
+</td>
+    </tr>
+    <tr>
+      <td>Alexandre Blain</td>
+      <td>
+<a href="http://www.math.univ-toulouse.fr" rel="external nofollow noopener" target="_blank">Institut de Mathématiques de Toulouse</a> and <a href="https://team.inria.fr/parietal/" rel="external nofollow noopener" target="_blank">Inria Parietal</a>
+</td>
+    </tr>
+    <tr>
+      <td>Nicolas Enjalbert-Courrech</td>
+      <td><a href="http://www.math.univ-toulouse.fr" rel="external nofollow noopener" target="_blank">Institut de Mathématiques de Toulouse</a></td>
+    </tr>
+    <tr>
+      <td>Maria Martinez</td>
+      <td><a href="http://www.cptp.inserm.fr" rel="external nofollow noopener" target="_blank">INSERM UMR 1043</a></td>
+    </tr>
+    <tr>
+      <td><a href="">Pierre Neuvial</a></td>
+      <td>
+<a href="http://www.cnrs.fr" rel="external nofollow noopener" target="_blank">CNRS</a>, <a href="http://www.math.univ-toulouse.fr" rel="external nofollow noopener" target="_blank">Institut de Mathématiques de Toulouse</a>
+</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Evry</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://www.math-evry.cnrs.fr/members/cdalmasso/" rel="external nofollow noopener" target="_blank">Cyril Dalmasso</a></td>
+      <td>
+<a href="http://www.univ-evry.fr/en/index.html" rel="external nofollow noopener" target="_blank">Université d’Evry</a>, <a href="http://www.math-evry.cnrs.fr" rel="external nofollow noopener" target="_blank">Laboratoire de Mathématiques et Modélisation d’Evry</a>
+</td>
+    </tr>
+    <tr>
+      <td>Jean-François Deleuze</td>
+      <td><a href="http://www.cng.fr" rel="external nofollow noopener" target="_blank">Centre National de Recherche en Génomique Humaine</a></td>
+    </tr>
+    <tr>
+      <td>Edith Le Floch</td>
+      <td><a href="http://www.cng.fr" rel="external nofollow noopener" target="_blank">Centre National de Recherche en Génomique Humaine</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.math-evry.cnrs.fr/members/grigaill/welcome" rel="external nofollow noopener" target="_blank">Guillem Rigaill</a></td>
+      <td>INRAE, <a href="http://www.math-evry.cnrs.fr" rel="external nofollow noopener" target="_blank">Laboratoire de Mathématiques et Modélisation d’Evry</a>
+</td>
+    </tr>
+    <tr>
+      <td>Franck Samson</td>
+      <td>INRAE, <a href="http://www.math-evry.cnrs.fr" rel="external nofollow noopener" target="_blank">Laboratoire de Mathématiques et Modélisation d’Evry</a>
+</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Paris</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://www.lpsm.paris/dw/doku.php?id=users:delattre:index" rel="external nofollow noopener" target="_blank">Sylvain Delattre</a></td>
+      <td>Sorbonne Université, <a href="http://www.lpsm.paris" rel="external nofollow noopener" target="_blank">Laboratoire de Probabilités, Statistique et Modélisation</a>
+</td>
+    </tr>
+    <tr>
+      <td><a href="https://etienneroquain-81.webself.net" rel="external nofollow noopener" target="_blank">Etienne Roquain</a></td>
+      <td>Sorbonne Université, <a href="http://www.lpsm.paris" rel="external nofollow noopener" target="_blank">Laboratoire de Probabilités, Statistique et Modélisation</a>
+</td>
+    </tr>
+    <tr>
+      <td><a href="https://marie-perrotdockes.github.io/" rel="external nofollow noopener" target="_blank">Marie Perrot-Dockès</a></td>
+      <td>Université de Paris, <a href="MAP5%20-%20Math%C3%A9matiques%20Appliqu%C3%A9es%20%C3%A0%20Paris%205%20-%20MAP5-UMR%208145">MAP5</a>
+</td>
+    </tr>
+    <tr>
+      <td><a href="https://science.curie.fr/members/benjamin-sadacca/" rel="external nofollow noopener" target="_blank">Benjamin Sadacca</a></td>
+      <td>
+<a href="https://institut-curie.org/" rel="external nofollow noopener" target="_blank">Institut Curie</a>, <a href="https://institut-curie.org/team/amigorena/" rel="external nofollow noopener" target="_blank">Immune responses to cancer</a>
+</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Orsay</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://www.imo.universite-paris-saclay.fr/~blanchard/" rel="external nofollow noopener" target="_blank">Gilles Blanchard</a></td>
+      <td>Université Paris-Saclay,  Institut de Mathématiques d’Orsay</td>
+    </tr>
+    <tr>
+      <td><a href="https://durandg12.github.io/" rel="external nofollow noopener" target="_blank">Guillermo Durand</a></td>
+      <td>Université Paris-Saclay,  Institut de Mathématiques d’Orsay</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br></p>
+
+<h3 id="open-source-software">Open source software</h3>
+
+<ul>
+  <li>
+    <p>The R package <a href="https://pneuvial.github.io/sanssouci/">sanssouci</a> implements most of the methods developed in the course of the project. The R package <a href="https://github/pneuvial/sanssouci.data/" rel="external nofollow noopener" target="_blank">sanssouci.data</a> stores examples of genomic and neuroimaging data that can be used within the main package. A <a href="https://github/pneuvial/sanssouci.python/" rel="external nofollow noopener" target="_blank">Python implementation</a> is also availble since 2021.</p>
+  </li>
+  <li>
+    <p>The R package <a href="https://github.com/Marie-PerrotDockes/sanssouci.hmm" rel="external nofollow noopener" target="_blank">sanssouci.hmm</a> implements the methods developed in Perrot-Dockès <em>et al</em> (2021)<a class="citation" href="#PBNR">(Perrot-Dockès et al., 2021)</a>.</p>
+  </li>
+  <li>
+    <p>The <a href="https://shiny-iidea-sanssouci.apps.math.cnrs.fr/" rel="external nofollow noopener" target="_blank">IIDEA</a> Shiny application implements interactive differential analyses (volcano plots and set enrichment analyses).</p>
+  </li>
+  <li>
+    <p>The R package <a href="https://CRAN.R-project.org/package=DiscreteFDR" rel="external nofollow noopener" target="_blank">discreteFDR</a> implements the procedures adapted to discrete tests, as described in Döhler <em>et al</em> (2018)<a class="citation" href="#doehler2018">(Döhler et al., 2018)</a> and Durand <em>et al</em> (2019)<a class="citation" href="#durand2019discretefdr">(Durand et al., 2019)</a>.</p>
+  </li>
+</ul>
+
+<h3 id="funding">Funding</h3>
+
+<p><a href="http://www.agence-nationale-recherche.fr/" rel="external nofollow noopener" target="_blank"><img src="/assets/img/logos/labelANR.png" alt="Funded by ANR" height="80"></a>
+<a href="http://www.cnrs.fr/" rel="external nofollow noopener" target="_blank"><img src="/assets/img/logos/CNRS.png" alt="CNRS" height="80"></a>
+<a href="http://www.cimi.univ-toulouse.fr" rel="external nofollow noopener" target="_blank"><img src="/assets/img/logos/CIMI.png" alt="Labex CIMI" height="80"></a></p>
+
+<ul>
+  <li>
+<a href="http://www.agence-nationale-recherche.fr/?Project=ANR-16-CE40-0019" rel="external nofollow noopener" target="_blank">ANR (French National Research Agency)</a>: Young researcher grant of 192 k€ (2016-2020).</li>
+  <li>
+<a href="http://www.cnrs.fr" rel="external nofollow noopener" target="_blank">CNRS (National Center for Scientific Research)</a>: <a href="https://www.cnrs.fr/ins2i/spip.php?article1183" rel="external nofollow noopener" target="_blank">PEPS FaSciDo</a> (12k€ in 2015, 5k€ in 2016)</li>
+  <li>
+<a href="http://www.cimi.univ-toulouse.fr" rel="external nofollow noopener" target="_blank">CIMI (International Centre for Mathematics and Computer Science in Toulouse)</a>: Sponsorship and organization of the Feb. 2018 workshop</li>
+</ul>
+
+<!-- *'SansSouci' has been identified as one of the best acronyms for ANR projects in 2016 by the [Agence Nationale de l'Excellence Scientitique (ANES)](http://excellagence.fr/)*. See the [official announcement on twitter](https://twitter.com/Excellagence/status/820206995655524352). -->
+
+
+          </article>
+
+        </div>
+
+      
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2023 Pierre  Neuvial. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
+Last updated: June 13, 2023.
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script>
+
+  <!-- Bootstrap Table -->
+  <script defer src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
+
+  <!-- Load Common JS -->
+  <script src="/assets/js/no_defer.js"></script>
+  <script defer src="/assets/js/common.js"></script>
+  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  </body>
+</html>
