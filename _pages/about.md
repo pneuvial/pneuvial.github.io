@@ -20,7 +20,7 @@ news: false
 social: false
 ---
 
-* Team: [Statistics and Optimization](https://www.math.univ-toulouse.fr/spip.php?article1028)
+* Head of the team [Statistics and Optimization](https://www.math.univ-toulouse.fr/en/recherche/teams/statistiques-et-optimisation/)
 * Member of the [Mathematics, Biology & Health](https://www.math.univ-toulouse.fr/MathBio/) group
 * Member of the [Apprentissage, Optimisation, Complexité](https://perso.math.univ-toulouse.fr/aoc/) (AOC) team
 
