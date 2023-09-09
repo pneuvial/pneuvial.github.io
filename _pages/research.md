@@ -9,14 +9,17 @@ fa-icon: coffee
 
 ### selected funded projects
 
+* co-PI of the **[ANR project VITE]()** (2024-2028): *Variable Importance Tests*
+* co-PI of the **[ANR project CORNFLEX](https://anr.fr/Project-ANR-22-CE45-0003)** (2023-2027): *Computational Design of Intrinsically Disordered Proteins: Application to Flexible Linkers*
 * PI of the **[CNRS 80' project DDisc](ddisc)** (2021-2024): *Double-dipping in single-cell RNA sequencing data analysis*
 * PI of the **[ANR project SansSouci](SansSouci)** (2016-2020): *Post-hoc approaches to large-scale multiple testing*
 * PI of the **[CNRS MITI](http://miti.cnrs.fr/) project SCALES** (2017-2019): *Multi-scale and data-driven statistical inference for genomic data*
 
 ### post-doctoral fellows
 
-* Feb 2021 - Aug 2021: [Samuel Davenport](https://sjdavenport.github.io/), funded by ANR SansSouci
-* Oct 2019 - Aug 2020: [Marie Perrot-Dockès](https://marie-perrotdockes.github.io/), funded by ANR SansSouci
+* Sep 2023 - Aug 2025: [Simon Bartels](https://simonbartels.github.io/), funded by ANR CORNFLEX (with J. Cortés and F. Bachoc)
+* Feb 2021 - Aug 2021: [Samuel Davenport](https://sjdavenport.github.io/), funded by ANR SansSouci (with B. Thirion)
+* Oct 2019 - Aug 2020: [Marie Perrot-Dockès](https://marie-perrotdockes.github.io/), funded by ANR SansSouci (with G. Blanchard and E. Roquain)
 * May 2018 - Aug 2018: [Magali Champion](https://magalichampion.github.io/), funded by ANR SansSouci 
 
 
