@@ -1,7 +1,11 @@
 "Ambroise":
   - firstname: ["Christophe"]
     url: http://www.math-evry.cnrs.fr/members/cambroise/
-
+    
+"Bachoc":
+  - firstname: ["François"]
+    url: https://www.math.univ-toulouse.fr/~fbachoc/
+    
 "Bengtsson":
   - firstname: ["Henrik"]
     url: http://www.epibiostat.ucsf.edu/epidem/personnel/hbengtsson.html
@@ -37,7 +41,11 @@
 "Durand":
   - firstname: ["Guillermo"]
     url: https://durandg12.github.io/
-    
+
+"Enjalbert-Courrech":
+  - firstname: ["Nicolas"]
+    url: https://nicolas-enjalbert.github.io/
+
 "González-Delgado":
   - firstname: ["Javier"]
     url: https://www.math.univ-toulouse.fr/~jgonzale
@@ -45,6 +53,10 @@
 "Jacob":
   - firstname: ["Laurent"]
     url: http://lbbe.univ-lyon1.fr/-Jacob-Laurent-.html
+
+"Maugis-Rabusseau":
+  - firstname: ["Cathy"]
+    url: https://www.math.univ-toulouse.fr/~maugis
 
 "Perrot-Dockès":
   - firstname: ["Marie"]
