@@ -79,6 +79,9 @@ SJS:
 SMF:
   url: http://smf4.emath.fr/Publications/Gazette/
 
+TEST:
+  url https://www.springer.com/journal/11749
+
 Var:
   url: http://variances.eu/
 

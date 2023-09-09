@@ -12,7 +12,7 @@ fa-icon: book
 
 <h1>Preprints and submitted manuscripts</h1>
 
-{% bibliography --query @misc[note=submitted] %}
+{% bibliography --query @misc[category=submitted] %}
 
 <h1>Journal papers</h1>
 

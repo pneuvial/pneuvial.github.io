@@ -135,6 +135,9 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+          {% if entry.doi %}
+	  [<a href="https://doi.org/{{ entry.doi }}" target="_blank">doi</a>]
+	  {% endif %}
           {% if entry.hal_id %}
 	  [<a href="https://hal.science/{{ entry.hal_id }}" target="_blank">hal</a>]
 	  {% endif %}
