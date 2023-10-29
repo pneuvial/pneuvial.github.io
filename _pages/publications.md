@@ -14,6 +14,10 @@ fa-icon: book
 
 {% bibliography --query @misc[category=submitted] %}
 
+<h1>Conference papers</h1>
+
+{% bibliography --query @inproceedings %}
+
 <h1>Journal papers</h1>
 
 {% bibliography --query @article[category!=popscience & category!="to appear"] %}

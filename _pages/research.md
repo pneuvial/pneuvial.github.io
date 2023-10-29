@@ -10,18 +10,22 @@ fa-icon: coffee
 ### selected funded projects
 
 * co-PI of the **[ANR project VITE]()** (2024-2028): *Variable Importance Tests*
+* participant of the **[AI4scMed consortium](https://ai4scmed.github.io/)** (2023-2027) funded by PEPR Santé Numérique: *multiscale AI for single-cell based precision medicine*
 * co-PI of the **[ANR project CORNFLEX](https://anr.fr/Project-ANR-22-CE45-0003)** (2023-2027): *Computational Design of Intrinsically Disordered Proteins: Application to Flexible Linkers*
 * PI of the **[CNRS 80' project DDisc](ddisc)** (2021-2024): *Double-dipping in single-cell RNA sequencing data analysis*
 * PI of the **[ANR project SansSouci](SansSouci)** (2016-2020): *Post-hoc approaches to large-scale multiple testing*
 * PI of the **[CNRS MITI](http://miti.cnrs.fr/)** project SCALES (2017-2019): *Multi-scale and data-driven statistical inference for genomic data*
 
 
-### PhD students and postdocs
+### current PhD students and postdocs
 
 - [Simon Bartels](https://simonbartels.github.io/): postdoc 2023-2025, funded by ANR CORNFLEX (with J. Cortés and F. Bachoc)
 - [Alexandre Blain](https://alexblnn.github.io/): PhD student 2021-2024, *Reliable statistical inference: controlling the false discovery proportion in high-dimensional multivariate estimators*. With [Bertrand Thirion](https://pages.saclay.inria.fr/bertrand.thirion/). Funded by UDOPIA (Paris Saclay).
 - [Nicolas Enjalbert-Courrech](https://nicolas-enjalbert.github.io/): PhD student 2021-2024,  *Post-clustering inference for single-cell RNA sequencing data*. With [Cathy Maugis-Rabusseau](https://perso.math.univ-toulouse.fr/maugis/). Funded by [CNRS MITI 80' project DDisc](ddisc).
-- [Javier González Delgado](https://www.math.univ-toulouse.fr/~jgonzale/): PhD student 10/2020-2023, *Statistical models and methods for the structural analysis of intrinsically disordered proteins*. With Juan Cortés ([LAAS](http://www.laas.fr)). Funded by [Labex CIMI](https://cimi.univ-toulouse.fr/).
+
+### past PhD students and postdocs
+
+- [Javier González Delgado](https://www.math.univ-toulouse.fr/~jgonzale/): PhD student 2020-2023, [*Statistical models and methods for the structural analysis of intrinsically disordered proteins*](https://hal.science/tel-04256428). With Juan Cortés ([LAAS](http://www.laas.fr)). Funded by [Labex CIMI](https://cimi.univ-toulouse.fr/).
 - [Samuel Davenport](https://sjdavenport.github.io/): postdoc 2021, funded by ANR SansSouci (with B. Thirion)
 - Nathanaël Randriamihamison: PhD student 2018-2021: [*Adjacency-constrained hierarchical agglomerative clustering with application to Hi-C studies*](https://theses.hal.science/tel-03424118v1). With [Nathalie Vialaneix](http://www.nathalievialaneix.eu/) and [Marie Chavent](http://www.math.u-bordeaux.fr/~mchave100p/). Funded by INRA/Inria.
 - [Marie Perrot-Dockès](https://marie-perrotdockes.github.io/): postdoc 2019-2020, funded by ANR SansSouci (with G. Blanchard and E. Roquain).
