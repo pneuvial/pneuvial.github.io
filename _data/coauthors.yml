@@ -45,10 +45,13 @@
 "Enjalbert-Courrech":
   - firstname: ["Nicolas"]
     url: https://nicolas-enjalbert.github.io/
+"Foissac":
+  - firstname: ["Sylvain"]
+    url: http://genoweb.toulouse.inra.fr/~sfoissac/
 
 "González-Delgado":
   - firstname: ["Javier"]
-    url: https://www.math.univ-toulouse.fr/~jgonzale
+    url: https://gonzalez-delgado.github.io/
 
 "Jacob":
   - firstname: ["Laurent"]
@@ -69,4 +72,8 @@
 "Thirion":
   - firstname: ["Bertrand"]
     url: https://pages.saclay.inria.fr/bertrand.thirion/
+
+"Vialaneix":
+  - firstname: ["Nathalie"]
+    url: https://www.nathalievialaneix.eu/
 

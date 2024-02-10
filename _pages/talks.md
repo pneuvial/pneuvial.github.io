@@ -7,9 +7,14 @@ nav_order: 5
 fa-icon: bullhorn
 ---
 
-### Post hoc inference and multiple testing
+### Post hoc inference, selective inference and multiple testing
+
+* *Selective inference after convex clustering with l1 penalization*. 
+  * 2023-12-11, kick-off meeting of [ANR BACKUP](https://sites.google.com/view/anrbackup/), Paris, France.
+  * 2023-12-06, [International Seminar on Selective Inference](https://sites.google.com/view/selective-inference-seminar/home). 
 
 * *Post hoc inference for genomics and neuro-imaging*:
+  * 2023-10-26, M2 Student seminar, Orsay, France
   * 2023-06-07, [Statistics Seminar](https://www.stat.ubc.ca/post-hoc-inference-genomics-and-neuroimaging), University of British Columbia, Vancouver
   * 2022-06-28, Talk at [Mathematical Methods of Modern Statistics 3](https://conferences.cirm-math.fr/2554.htm)
   * 2021-03-29, Statistics and Probability seminar, [Institut Monpeliérain Alexander Grothendieck](https://imag.umontpellier.fr/)
@@ -30,4 +35,7 @@ fa-icon: bullhorn
   - 2018-12-13, talk at [Génotoul bioinfo-biostat workshop](https://bioinfo-biostat.sciencesconf.org/), INRAE Auzeville
 
 
+### Reproducibility
+
+* *[Computo](https://computo.sfds.asso.fr/), Un journal en Statistique et Apprentissage promouvant la reproductibilité*. 2023-09-08, Colloque *"[Reproductibilité et Réplicabilité de la recherche: enjeux et propositions](https://miti.cnrs.fr/evenement-scientifique/colloque-replicabilite-reproductibilite-recherche/)"*
 
