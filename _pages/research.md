@@ -7,6 +7,9 @@ nav_order: 1
 fa-icon: coffee
 ---
 
+> *Notre monde exige que l'on résolve des problèmes d'une complication infinie dans un délai infiniment court*. Paul Valéry, [Lettre sur la société des esprits](https://fr.wikisource.org/wiki/Vari%C3%A9t%C3%A9/Lettre_sur_la_soci%C3%A9t%C3%A9_des_esprits), 1933.
+
+
 ### selected funded projects
 
 * co-PI of the **[ANR project VITE]()** (2024-2028): *Variable Importance Tests*
