@@ -8,6 +8,7 @@ subtitle: <a href="https://www.cnrs.fr">CNRS</a> researcher (DR) in Statistics, 
 profile:
   align: right
   image: pierre-neuvial.jpg
+  image_circular: true
   address: >
     <p>Bureau 208, <a href="https://www.openstreetmap.org/#map=19/43.56136/1.46610">bât. 1R1</a></p>
     <p>118 route de Narbonne</p>
