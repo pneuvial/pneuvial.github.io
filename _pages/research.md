@@ -30,7 +30,7 @@ fa-icon: coffee
 
 ### past PhD students and postdocs
 
-- [Javier González Delgado](https://gonzalez-delgado.github.io/): PhD student 2020-2023, [*Statistical models and methods for the structural analysis of intrinsically disordered proteins*](https://hal.science/tel-04256428). With Juan Cortés ([LAAS](http://www.laas.fr)). Funded by [Labex CIMI](https://cimi.univ-toulouse.fr/). Currently postdoc at Mc Gill University (Canada).
+- [Javier González Delgado](https://gonzalez-delgado.github.io/): PhD student 2020-2023, [*Statistical models and methods for the structural analysis of intrinsically disordered proteins*](https://hal.science/tel-04256428). With Juan Cortés ([LAAS](http://www.laas.fr)). Funded by [Labex CIMI](https://cimi.univ-toulouse.fr/). Currently postdoc at Mc Gill University (Canada). *[Prix de thèse Jacques Neveu 2023](http://smai.emath.fr/spip.php?article359) awarded by [SMAI, groupe MAS](http://smai.emath.fr/spip.php?article326)*
 - [Samuel Davenport](https://sjdavenport.github.io/): postdoc 2021, funded by ANR SansSouci (with B. Thirion). Currently postdoc at UC San Diego (USA).
 - Nathanaël Randriamihamison: PhD student 2018-2021: [*Adjacency-constrained hierarchical agglomerative clustering with application to Hi-C studies*](https://theses.hal.science/tel-03424118v1). With [Nathalie Vialaneix](http://www.nathalievialaneix.eu/) and [Marie Chavent](http://www.math.u-bordeaux.fr/~mchave100p/). Funded by INRA/Inria. Currently high-school math teacher.
 - [Marie Perrot-Dockès](https://marie-perrotdockes.github.io/): postdoc 2019-2020, funded by ANR SansSouci (with G. Blanchard and E. Roquain). Currently Assistant professor at MAP5, Paris.
