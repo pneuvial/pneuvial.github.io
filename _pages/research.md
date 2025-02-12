@@ -23,8 +23,10 @@ fa-icon: coffee
 
 ### current PhD students and postdocs
 
+- [Angel Reyero Lobo](https://angelreyero.github.io/): PhD student 2024-2027, *Statistical inference for variable importance in high-dimensional and highly correlated settings*. With [Bertrand Thirion](https://pages.saclay.inria.fr/bertrand.thirion/). Funded by ANR VITE.
+- [Sara Fallet](https://theses.fr/s398058): PhD student 2024-2027, *Gene set differential analysis of multi-sample scRNA-seq data*. With [Boris Hejblum](https://borishejblum.science/). Funded by PEPR Santé Numérique [AI4scMed](https://ai4scmed.github.io/).
 - [Simon Bartels](https://simonbartels.github.io/): postdoc 2023-2025, funded by [ANR CORNFLEX](https://anr.fr/Projet-ANR-22-CE45-0003) (with J. Cortés and F. Bachoc)
-- [Elise Jorge](): PhD student 2023-2026, *Comparative analysis of 3D genomics data*. With [Sylvain Foissac]() and [Nathalie Vialaneix](). Funded by Inrae.
+- [Elise Jorge](): PhD student 2023-2026, *Comparative analysis of 3D genomics data*. With [Sylvain Foissac](https://web-genobioinfo.toulouse.inrae.fr/~sfoissac/) and [Nathalie Vialaneix](http://www.nathalievialaneix.eu/). Funded by Inrae.
 - [Alexandre Blain](https://alexblnn.github.io/): PhD student 2021-2024, *Reliable statistical inference: controlling the false discovery proportion in high-dimensional multivariate estimators*. With [Bertrand Thirion](https://pages.saclay.inria.fr/bertrand.thirion/). Funded by UDOPIA (Paris Saclay).
 - [Nicolas Enjalbert-Courrech](https://nicolas-enjalbert.github.io/): PhD student 2021-2024,  *Post-clustering inference for single-cell RNA sequencing data*. With [Cathy Maugis-Rabusseau](https://perso.math.univ-toulouse.fr/maugis/). Funded by [CNRS MITI 80' project DDisc](ddisc).
 
