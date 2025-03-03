@@ -15,7 +15,7 @@ fa-icon: coffee
 * co-PI of the **[ANR project VITE]()** (2024-2028): *Variable Importance Tests*
 * participant of the **[ANR project BACKUP](https://sites.google.com/view/anrbackup)** (2023-2027)
 * participant of the **[AI4scMed consortium](https://ai4scmed.github.io/)** (2023-2027) funded by PEPR Santé Numérique: *multiscale AI for single-cell based precision medicine*
-* co-PI of the **[ANR project CORNFLEX](https://anr.fr/Project-ANR-22-CE45-0003)** (2023-2027): *Computational Design of Intrinsically Disordered Proteins: Application to Flexible Linkers*
+* co-PI of the **[ANR project CORNFLEX](https://wp.laas.fr/cornflex/)** (2023-2027): *Computational Design of Intrinsically Disordered Proteins: Application to Flexible Linkers*
 * PI of the **[CNRS 80' project DDisc](ddisc)** (2021-2024): *Double-dipping in single-cell RNA sequencing data analysis*
 * PI of the **[ANR project SansSouci](SansSouci)** (2016-2020): *Post-hoc approaches to large-scale multiple testing*
 * PI of the **[CNRS MITI](http://miti.cnrs.fr/)** project SCALES (2017-2019): *Multi-scale and data-driven statistical inference for genomic data*
