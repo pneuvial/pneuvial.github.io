@@ -20,7 +20,7 @@
 
 "Blanchard":
   - firstname: ["Gilles"]
-    url: http://www.math.uni-potsdam.de/~blanchard/
+    url: https://www.imo.universite-paris-saclay.fr/~gilles.blanchard/
 
 "Chambaz":
   - firstname: ["Antoine"]
@@ -28,7 +28,7 @@
 
 "Chiquet":
   - firstname: ["Julien"]
-    url: http://julien.cremeriefamily.info/
+    url: https://jchiquet.github.io/
 
 "Cortés":
   - firstname: ["Juan"]
@@ -42,9 +42,10 @@
   - firstname: ["Guillermo"]
     url: https://durandg12.github.io/
 
-"Enjalbert-Courrech":
+"Enjalbert Courrech":
   - firstname: ["Nicolas"]
     url: https://nicolas-enjalbert.github.io/
+    
 "Foissac":
   - firstname: ["Sylvain"]
     url: http://genoweb.toulouse.inra.fr/~sfoissac/
@@ -55,7 +56,7 @@
 
 "Jacob":
   - firstname: ["Laurent"]
-    url: http://lbbe.univ-lyon1.fr/-Jacob-Laurent-.html
+    url: https://laurent-jacob.github.io/
 
 "Maugis-Rabusseau":
   - firstname: ["Cathy"]
@@ -67,7 +68,7 @@
 
 "Roquain":
   - firstname: ["Etienne"]
-    url: http://etienne.roquain.free.fr
+    url: https://etienneroquain-81.webself.net/
 
 "Thirion":
   - firstname: ["Bertrand"]
