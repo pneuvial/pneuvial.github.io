@@ -24,6 +24,7 @@ social: false
 * Member of the team [Statistics and Optimization](https://www.math.univ-toulouse.fr/en/recherche/teams/statistiques-et-optimisation/)
 * Member of the [Mathematics, Biology & Health](https://www.math.univ-toulouse.fr/MathBio/) group
 * Member of the [Apprentissage, Optimisation, Complexité](https://perso.math.univ-toulouse.fr/aoc/) (AOC) team
+* Member of [Biostatistics platform](https://biostat.genotoul.fr/) of Genotoul
 
 
 ## research interests
