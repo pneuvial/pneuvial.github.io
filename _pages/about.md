@@ -35,7 +35,7 @@ social: false
 
 ## bio
 
-<i class="fa fa-chevron-right" aria-hidden="true"></i> <a href="{{ '/assets/pdf/cv-neuvial.pdf' | prepend: site.baseurl | prepend: site.url }}">CV (pdf)</a> as of 2023-06-12
+<i class="fa fa-chevron-right" aria-hidden="true"></i> <a href="{{ '/assets/pdf/cv-neuvial.pdf' | prepend: site.baseurl | prepend: site.url }}">CV (pdf)</a> as of 2025-11
 
 * [since 2021] CNRS senior researcher (DR) with [IMT](https://www.math.univ-toulouse.fr)
 * [2016-2021] CNRS junior researcher (CR) with [IMT](https://www.math.univ-toulouse.fr)
