@@ -31,7 +31,7 @@ social: false
 * Multiple testing: theory and applications
 * Statistical methods for genomic and neuroimaging data analysis
 * Performance evaluation of statistical methods
-* Reproducible research: check-out the [Computo](https://computo.sfds.asso.fr/) journal
+* Reproducible research: check-out the [Computo](https://computo-journal.org/) journal
 
 ## bio
 
