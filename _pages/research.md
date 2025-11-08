@@ -20,7 +20,6 @@ fa-icon: coffee
 * PI of the **[ANR project SansSouci](SansSouci)** (2016-2020): *Post-hoc approaches to large-scale multiple testing*
 * PI of the **[CNRS MITI](http://miti.cnrs.fr/)** project SCALES (2017-2019): *Multi-scale and data-driven statistical inference for genomic data*
 
-
 ### current PhD students and postdocs
 
 - [Sara Fallet](https://theses.fr/s398058): PhD student 2024-2027, *Gene set differential analysis of multi-sample scRNA-seq data*. With [Boris Hejblum](https://borishejblum.science/). Funded by PEPR Santé Numérique [AI4scMed](https://ai4scmed.github.io/).
@@ -29,18 +28,22 @@ fa-icon: coffee
 
 ### past PhD students and postdocs
 
-- [Simon Bartels](https://simonbartels.github.io/): postdoc 2023-2025, funded by [ANR CORNFLEX](https://anr.fr/Projet-ANR-22-CE45-0003). With [Juan Cortés](https://www.laas.fr/fr/annuaire/121) and [François Bachoc](https://francoisbachoc.github.io/). Currently Machine Learning Engineer at Component AI.
-- [Nicolas Enjalbert-Courrech](https://nicolas-enjalbert.github.io/): PhD student 2021-2024,  *Post-clustering inference for single-cell RNA sequencing data*. With [Cathy Maugis-Rabusseau](https://perso.math.univ-toulouse.fr/maugis/). Funded by CNRS MITI 80' project DDisc. Currently Research Engineer at INRAE MIAT.
-- [Alexandre Blain](https://alexblnn.github.io/): PhD student 2021-2024, *Reliable statistical inference: controlling the false discovery proportion in high-dimensional multivariate estimators*. With [Bertrand Thirion](https://pages.saclay.inria.fr/bertrand.thirion/). Funded by UDOPIA (Paris Saclay).
-- [Javier González Delgado](https://gonzalez-delgado.github.io/): PhD student 2020-2023, [*Statistical models and methods for the structural analysis of intrinsically disordered proteins*](https://hal.science/tel-04256428). With [Juan Cortés](https://www.laas.fr/fr/annuaire/121). Funded by [Labex CIMI](https://cimi.univ-toulouse.fr/). Currently Assistant Professor at ENSAI (Rennes). *[Prix de thèse Jacques Neveu 2023](http://smai.emath.fr/spip.php?article359) awarded by [SMAI, groupe MAS](http://smai.emath.fr/spip.php?article326)*
-- [Samuel Davenport](https://sjdavenport.github.io/): postdoc 2021, funded by ANR SansSouci (with B. Thirion). Currently postdoc at UC San Diego (USA).
-- Nathanaël Randriamihamison: PhD student 2018-2021: [*Adjacency-constrained hierarchical agglomerative clustering with application to Hi-C studies*](https://theses.hal.science/tel-03424118v1). With [Nathalie Vialaneix](http://www.nathalievialaneix.eu/) and [Marie Chavent](http://www.math.u-bordeaux.fr/~mchave100p/). Funded by INRA/Inria. Currently high-school math teacher.
-- [Marie Perrot-Dockès](https://marie-perrotdockes.github.io/): postdoc 2019-2020, funded by ANR SansSouci (with G. Blanchard and E. Roquain). Currently Assistant professor at MAP5, Paris.
-- [Guillermo Durand](https://durandg12.github.io/): PhD student 2015-2018, [*Multiple testing and post hoc bounds for heterogeneous data*](https://theses.hal.science/tel-02374758v1). Co-supervised with [Etienne Roquain](http://etienne.roquain.free.fr). Funded by Université Paris 6. Currently Assistant professor at LMO, Orsay.
-- [Magali Champion](https://magalichampion.github.io/): postdoc 2018, funded by ANR SansSouci. Currently Assistant professor at MAP5, Paris.
-- Benjamin Sadacca: PhD student 2013-2017, [*Pharmacogenomic and high-throughput data analysis to overcome triple negative breast cancers drug resistance*](https://theses.hal.science/tel-01956586). Co-supervised with Fabien Reyal. Funded by Institut Curie. Currently Associate Director in Bioinformatics with Mnemo Therapeutics. 
-- [Morgane Pierre-Jean](https://scholar.google.fr/citations?hl=fr&user=F6BeV64AAAAJ): PhD student 2013-2016, [*Development of statistical methods for DNA copy number analysis in cancerology*](https://theses.hal.science/tel-01436012/). Funded by École doctorale GAO, University of Évry. Currently Research Engineer at LSTI (Rennes University).
-- Alia Dehman: PhD student 2012-2015, [*Spatial clustering of linkage disequilibrium blocks for genome-wide association studies*](https://theses.hal.science/tel-01288568/). Co-supervised with [Christophe Ambroise](http://www.math-evry.cnrs.fr/members/cambroise/). Funded by École doctorale GAO, University of Évry. Currently Senior Biostatistician at Comac Medical.
+| Name                        | Period & Type         | Co-supervisors / Partners                                                                 | Current position                                                                 |
+|-----------------------------|-----------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [Simon Bartels](https://simonbartels.github.io/) | 2023-2025 (Postdoc)   | [Juan Cortés](https://www.laas.fr/fr/annuaire/121), [François Bachoc](https://francoisbachoc.github.io/) | Machine Learning Engineer, Component AI                                            |
+| [Nicolas Enjalbert-Courrech](https://nicolas-enjalbert.github.io/) | 2021-2024 (PhD)       | [Cathy Maugis-Rabusseau](https://perso.math.univ-toulouse.fr/maugis/)                     | Research Engineer, INRAE MIAT                                                      |
+| [Alexandre Blain](https://alexblnn.github.io/) | 2021-2024 (PhD)       | [Bertrand Thirion](https://pages.saclay.inria.fr/bertrand.thirion/)                         |                                                                                   |
+| [Javier González Delgado](https://gonzalez-delgado.github.io/) | 2020-2023 (PhD)       | [Juan Cortés](https://www.laas.fr/fr/annuaire/121)                                         | Assistant Professor, ENSAI (Rennes) – [Prix de thèse Jacques Neveu 2023](http://smai.emath.fr/spip.php?article359) |
+| [Samuel Davenport](https://sjdavenport.github.io/) | 2021 (Postdoc)        | [Bertrand Thirion](https://pages.saclay.inria.fr/bertrand.thirion/)                         | Postdoc, UC San Diego (USA)                                                        |
+| Nathanaël Randriamihamison  | 2018-2021 (PhD)       | [Nathalie Vialaneix](http://www.nathalievialaneix.eu/), [Marie Chavent](http://www.math.u-bordeaux.fr/~mchave100p/) | High-school math teacher                                                           |
+| [Marie Perrot-Dockès](https://marie-perrotdockes.github.io/) | 2019-2020 (Postdoc)   | [Gilles Blanchard](https://www.math.uni-potsdam.de/professuren/mathematische-statistik/team/prof-dr-gilles-blanchard/), [Etienne Roquain](http://etienne.roquain.free.fr) | Assistant Professor, MAP5, Paris                                                  |
+| [Guillermo Durand](https://durandg12.github.io/) | 2015-2018 (PhD)       | [Etienne Roquain](http://etienne.roquain.free.fr)                                           | Assistant Professor, LMO, Orsay                                                    |
+| [Magali Champion](https://magalichampion.github.io/) | 2018 (Postdoc)        |                                                                                           | Assistant Professor, MAP5, Paris                                                  |
+| Benjamin Sadacca            | 2013-2017 (PhD)       | Fabien Reyal                                                                              | Associate Director in Bioinformatics, Mnemo Therapeutics                           |
+| [Morgane Pierre-Jean](https://scholar.google.fr/citations?hl=fr&user=F6BeV64AAAAJ) | 2013-2016 (PhD)       |                                                                                           | Research Engineer, LSTI (Rennes University)                                        |
+| Alia Dehman                 | 2012-2015 (PhD)       | [Christophe Ambroise](http://www.math-evry.cnrs.fr/members/cambroise/)                     | Senior Biostatistician, Comac Medical                                              |
+
+
 
 ### Conference organization
 
