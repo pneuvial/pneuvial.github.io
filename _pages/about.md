@@ -21,32 +21,25 @@ news: false
 social: false
 ---
 
-* Member of the team [Statistics and Optimization](https://www.math.univ-toulouse.fr/en/recherche/teams/statistiques-et-optimisation/)
-* Member of the [Mathematics, Biology & Health](https://www.math.univ-toulouse.fr/MathBio/) group
-* Member of the [Apprentissage, Optimisation, Complexité](https://perso.math.univ-toulouse.fr/aoc/) (AOC) team
-* Member of [Biostatistics platform](https://biostat.genotoul.fr/) of Genotoul
-
+* Member of the [Statistics and Optimization](https://www.math.univ-toulouse.fr/en/recherche/teams/statistiques-et-optimisation/) team, the [Mathematics, Biology & Health](https://www.math.univ-toulouse.fr/MathBio/) group, and the Genotoul [Biostatistics platform](https://biostat.genotoul.fr/).
 
 ## research interests
 
-* Post hoc/post selection inference
+* Post hoc/post selection inference: check-out the [SansSouci](sanssouci) project
 * Multiple testing: theory and applications
-* Statistical methods for genomic data analysis
+* Statistical methods for genomic and neuroimaging data analysis
 * Performance evaluation of statistical methods
-* Applications to cancer research
 * Reproducible research: check-out the [Computo](https://computo.sfds.asso.fr/) journal
-
-Some recent projects:
-  - [CNRS 80 PRIME project DDisc](ddisc)
-  - [ANR project SansSouci](sanssouci)
 
 ## bio
 
 <i class="fa fa-chevron-right" aria-hidden="true"></i> <a href="{{ '/assets/pdf/cv-neuvial.pdf' | prepend: site.baseurl | prepend: site.url }}">CV (pdf)</a> as of 2023-06-12
 
-* [since 2011] CNRS researcher with:
-  * [Institut Mathématique de Toulouse](https://www.math.univ-toulouse.fr) since 2016
-  * [LaMME (Evry)](http://www.math-evry.cnrs.fr) (2011-2016)
+* [since 2021] CNRS senior researcher (DR) with [Institut Mathématique de Toulouse](https://www.math.univ-toulouse.fr)
+* [2016-2021] CNRS junior researcher (CR) with [Institut Mathématique de Toulouse](https://www.math.univ-toulouse.fr)
+* [2011-2016] CNRS junior researcher (CR) with [LaMME (Evry)](http://www.math-evry.cnrs.fr)
+  
+
 * [2008-2011] Postdoc with:
    * [LaMME (Evry)](http://www.math-evry.cnrs.fr) (2010-2011)
    * UC Berkeley, [Statistics](http://www.stat.berkeley.edu), under the supervision of [Terry Speed](http://www.wehi.edu.au/people/terry-speed)
