@@ -160,14 +160,17 @@ kramdown:
 # Includes & excludes
 include: ['_pages']
 exclude:
+  - .bundle
   - bin
   - Gemfile
   - Gemfile.lock
+  - node_modules
   - vendor
 keep_files:
   - CNAME
   - .nojekyll
   - .git
+incremental: true
 
 # Plug-ins
 plugins:
