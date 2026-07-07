@@ -22,6 +22,7 @@ fa-icon: coffee
 
 ### current PhD students and postdocs
 
+- [Daniela Corbetta](https://danielacorbetta.github.io/) (2026-2027). With [François Bachoc](https://francoisbachoc.github.io/) and [Cathy Maugis-Rabusseau](https://perso.math.univ-toulouse.fr/maugis/). Funded by [ANR BACKUP](https://sites.google.com/view/anrbackup/). 
 - [Sara Fallet](https://theses.fr/s398058): PhD student 2024-2027, *Gene set differential analysis of multi-sample scRNA-seq data*. With [Boris Hejblum](https://borishejblum.science/). Funded by PEPR Santé Numérique [AI4scMed](https://ai4scmed.github.io/).
 - [Angel Reyero Lobo](https://angelreyero.github.io/): PhD student 2024-2027, *Statistical inference for variable importance in high-dimensional and highly correlated settings*. With [Bertrand Thirion](https://pages.saclay.inria.fr/bertrand.thirion/). Funded by [ANR VITE](https://anr.fr/Project-ANR-23-CE23-0016).
 - [Elise Jorge](https://theses.fr/s369079): PhD student 2023-2026, *Comparative analysis of 3D genomics data*. With [Sylvain Foissac](https://web-genobioinfo.toulouse.inrae.fr/~sfoissac/) and [Nathalie Vialaneix](http://www.nathalievialaneix.eu/). Funded by INRAE.
