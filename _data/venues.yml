@@ -74,7 +74,7 @@ NARGAB:
   url: https://academic.oup.com/nargab
 
 NeurIPS:
-  url: https://nips.cc
+  url: https://neurips.cc
 
 Neuroimage:
   url: https://www.sciencedirect.com/journal/neuroimage
@@ -84,6 +84,9 @@ PLoS-One:
 
 PNAS:
   url: http://www.pnas.org
+
+RSOC:
+  url: https://royalsocietypublishing.org/rsos
 
 SciRep:
   url: https://www.nature.com/srep/about
