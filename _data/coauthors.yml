@@ -54,6 +54,10 @@
   - firstname: ["Javier"]
     url: https://gonzalez-delgado.github.io/
 
+"Hocking":
+  - firstname: [Toby D.]
+    url: https://tdhock.github.io/
+
 "Jacob":
   - firstname: ["Laurent"]
     url: https://laurent-jacob.github.io/
@@ -65,6 +69,10 @@
 "Perrot-Dockès":
   - firstname: ["Marie"]
     url: https://marie-perrotdockes.github.io/
+
+"Reyero Lobo":
+  - firstname: ["Angel"]
+    url: https://angelreyero.github.io/
 
 "Roquain":
   - firstname: ["Etienne"]
