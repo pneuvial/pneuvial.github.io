@@ -20,15 +20,15 @@ fa-icon: book
 
 <h1>Journal papers</h1>
 
-{% bibliography --query @article[category!=popscience & category!="to appear"] %}
+{% bibliography --query @article[category!=popscience] %}
 
 <h1>Book chapters</h1>
 
-{% bibliography --query @incollection%}
+{% bibliography --query @incollection[category!=popscience] %}
 
-<h1>Popular science (in French)</h1>
+<h1>Popular science (mosttly in French)</h1>
 
-{% bibliography --query @article[category=popscience] | @inbook[category=popscience] %}
+{% bibliography --query @article[category=popscience] | @incollection[category=popscience] %}
 
 <h1>Technical reports and theses</h1>
 
